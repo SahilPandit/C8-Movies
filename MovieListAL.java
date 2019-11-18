@@ -17,6 +17,9 @@ public class MovieListAL
      */
     public MovieListAL(Movie[] movies)
     {
+        this.pool= new ArrayList<movie>()(
+        for(int i=1; i<movies.length:i++)
+        pool.add(Movies[i]);
 
     }
 
@@ -31,7 +34,12 @@ public class MovieListAL
      */
     public ArrayList<Movie> getByStudio(String studio)
     {
-        return null;
+        for (int i=0; i<pool.size;i++)
+        {
+            if (pool.get(i).getStudeio().equals(Studio))
+         r.add(pool.get(i))
+        }
+       return r; 
     }
     
     
